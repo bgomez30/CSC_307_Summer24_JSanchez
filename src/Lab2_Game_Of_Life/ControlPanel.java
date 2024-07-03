@@ -1,6 +1,10 @@
 import javax.swing.*;
 
 
+/**
+ * @author Toby Mui
+ */
+
 public class ControlPanel extends JPanel {
     private final Timer timer;
 

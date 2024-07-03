@@ -1,6 +1,10 @@
 import javax.swing.*;
 import java.awt.*;
 
+/**
+ * @author Toby Mui
+ */
+
 public class GameOfLife extends JFrame {
 
     public GameOfLife() {

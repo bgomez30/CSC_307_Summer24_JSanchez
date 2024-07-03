@@ -1,6 +1,9 @@
 import javax.swing.*;
 import java.awt.*;
 
+/**
+ * @author Bryan Gomez
+ */
 public class Grid extends JPanel {
     private final int ROWS;
     private final int COLS;
@@ -11,6 +14,7 @@ public class Grid extends JPanel {
         this.COLS = cols;
         this.cells = new Cell[ROWS][COLS];
         setLayout(new GridLayout(ROWS, COLS));
+        setBackground(Color.GRAY);
         initializeGrid();
     }
 
