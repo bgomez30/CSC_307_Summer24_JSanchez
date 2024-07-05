@@ -5,7 +5,13 @@ import java.awt.*;
  * @author Toby Mui
  */
 
+
+
 public class GameOfLife extends JFrame {
+
+    public static final int ROWS = 20;
+    public static final int COLS = 20;
+
 
     public GameOfLife() {
         setTitle("Conway's Game of Life");
@@ -13,8 +19,7 @@ public class GameOfLife extends JFrame {
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLayout(new BorderLayout());
 
-        int ROWS = 20;
-        int COLS = 20;
+
         Grid grid = new Grid(ROWS, COLS);
         add(grid, BorderLayout.CENTER);
 
